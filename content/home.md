@@ -5,7 +5,7 @@ cats:
   - description: Adriaan is a lion
     name: Adriaan
   - description: Lil Bub is an American celebrity cat known for her unique appearance.
-    name: Lil Bub
+    name: Georg
   - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
     name: Grumpy cat (Tardar Sauce)
 ---
