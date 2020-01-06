@@ -1,0 +1,65 @@
+#zukunft{
+    position: relative;
+    background: #f0f0f0;
+}
+#zukunft div{
+    padding: 10% 10% 0;
+    background: #f0f0f0;
+    color: #0b0f2c;
+}
+.zukunft-title{
+    font-size: 3.6em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    font-family: 'Fira Mono', monospace;
+    margin: 0;
+    transform: translateY(33px);
+}
+.zukunft-title span{
+    display: block;
+}
+#zukunft img{
+    display: block;
+    margin-left: auto;
+    transform: translateY(-120px);
+    width: 80%;
+}
+#zukunft>span{
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 2%;
+    bottom: 25%;
+    font-size: 1.2em;
+    color: #47d7ac;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 992px) {
+    .zukunft-title{
+        font-size: 2.6em;
+        
+        transform: translateY(24px);
+    }
+    #zukunft img{
+        transform: translateY(-80px);
+    }
+    #zukunft>span{
+        position: absolute;
+        transform: rotate(-90deg);
+        left: -5%;
+        bottom: 20%;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    #zukunft img{
+        transform: translateY(-20px);
+    }
+    #zukunft>span{
+        position: absolute;
+        transform: rotate(-90deg);
+        left: -5%;
+        bottom: 14%;
+        
+    }
+}

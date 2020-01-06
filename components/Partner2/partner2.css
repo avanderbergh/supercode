@@ -1,0 +1,89 @@
+.partner-section {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr .2fr;
+    background: #f0f0f0;
+    padding: 10vh 0;
+    overflow: visible;
+}
+.partner-text {
+    grid-row: span 1;
+    background: #47d7ac;
+    box-shadow: 38vw 0px #47d7ac;
+    padding: 20% 5% 20% 20%;
+}
+.partner-section .carousel  {
+    width: 50%;
+    background: #fff;
+    margin-top: 50px;
+    grid-row: span 2;
+}
+.partner-section .carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    border-top: 0;
+    border-bottom: 0;
+    background: #0f0f0f;
+}
+.partner-section .carousel-indicators .active {
+    opacity: 1;
+    background: #0f0f0f;
+}
+.partner-text-big {
+    font-size: 2.3em;
+    letter-spacing: 3px;
+    
+}
+.partner-text-small {
+    padding-top: 30px;
+    font-size: 1.2em;
+}
+.partner-text-small a {
+    color: #0f0f0f;
+    border-bottom: 1px solid #0f0f0f;
+}
+.partner-text-small a:hover {
+    text-decoration: none;
+    color: #f0f0f0;
+}
+.partner-section aside {
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: right;
+    right: 5%;
+    top: 25%;
+    font-size: 1.2em;
+    color: #47d7ac;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+@media screen and (max-width: 992px) {
+    .partner-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+    }
+    .partner-text {
+        font-size: .9em;
+        box-shadow: none;
+        width: 80%;
+        margin: 0 15% 0 5%;
+        padding: 10%;
+        box-shadow: 0 20vh #47d7ac;
+    }
+    .partner-section .carousel {
+        width: 50%;
+        margin: 0 30% 0 20%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .partner-text {
+        font-size: .8em;
+        
+    }
+    .partner-section aside {
+        right: 3%;
+    }
+}

@@ -1,0 +1,32 @@
+#home-start-seite{
+    padding: 10% 10% 0;
+    background: #f0f0f0;
+    color: #0b0f2c;
+}
+.home-start-seite{
+    font-size: 3.5em;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color:#47d7ac;
+    font-family: 'Fira Mono', monospace;
+}
+.typing{
+    color: #0b0f2c;
+    margin-bottom: 0;
+}
+.my-typing{
+    display: inline;
+}
+@media screen and (max-width: 992px) {
+    #home-start-seite{
+        padding: 100px 10%;
+    }
+    .home-start-seite{
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home-start-seite{
+        font-size: 1.5em;
+    }
+}
