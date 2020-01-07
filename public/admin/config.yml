@@ -19,3 +19,4 @@ collections:
             fields:
               - { label: "Headline", name: "headline", widget: "string" }
               - { label: "Test", name: "text", widget: "text" }
+              - { label: "Icon", name: "icon", widget: "string"}
