@@ -11,8 +11,6 @@ collections:
         name: "StartSeite"
         file: "content/StartSeite.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
           - label: "Methodik Didaktik"
             name: "methodik_didaktik"
             widget: list

@@ -1,5 +1,4 @@
 ---
-title: Start seite
 methodik_didaktik:
   - headline: Super
     icon: fist-raised
@@ -20,7 +19,3 @@ methodik_didaktik:
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit
       porro ipsum ducimus.
 ---
-
-Welcome to my awesome page about cats of the internet.
-
-This page is built with NextJS, and content is managed in Netlify CMS
