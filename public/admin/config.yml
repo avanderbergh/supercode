@@ -17,4 +17,13 @@ collections:
             fields:
               - { label: "Headline", name: "headline", widget: "string" }
               - { label: "Test", name: "text", widget: "text" }
-              - { label: "Icon", name: "icon", widget: "string"}
+              - label: "Icon"
+                name: "icon"
+                widget: "select"
+                options:
+                  [
+                    "fist-raised",
+                    "language",
+                    "compress-arrows-alt",
+                    "arrows-alt",
+                  ]
