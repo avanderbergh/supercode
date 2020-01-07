@@ -1,11 +1,9 @@
 import Head from "next/head";
 import { Component } from "react";
-import { attributes, react as HomeContent } from "../content/home.md";
 import StartSeite from "../components/StartSeite/StartSeite";
 
 export default class Home extends Component {
 	render() {
-		let { title, cats } = attributes;
 		return (
 			<>
 				<Head>

@@ -1,0 +1,21 @@
+.methodik-didaktik-item {
+	text-align: center;
+}
+.methodik-didaktik-item .icon {
+	background: #ffffff;
+	width: 80px;
+	height: 80px;
+	padding: 20px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+.methodik-didaktik-item h4 {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-bottom: 0px;
+}
+.methodik-didaktik-item p {
+	font-size: 1.25em;
+	color: #1e1e1e;
+	line-height: 30px;
+}
