@@ -1,18 +1,20 @@
 ---
 title: Start seite
 methodik_didaktik:
-  - headline: Headline 1
-    text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.
-    icon: fist-raised
+  - headline: Super
+    text: Alles super
   - headline: Headline 2
-    text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.
-    icon: fist-raised
+    text: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit
+      porro ipsum ducimus.
   - headline: Headline 3
-    text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.
-    icon: fist-raised
+    text: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit
+      porro ipsum ducimus.
   - headline: Headline 4
-    text: Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit porro ipsum ducimus.
-    icon: fist-raised
+    text: >-
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae velit
+      porro ipsum ducimus.
 ---
 
 Welcome to my awesome page about cats of the internet.
