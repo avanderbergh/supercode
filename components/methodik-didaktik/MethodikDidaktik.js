@@ -21,9 +21,7 @@ const MethodikDidaktik = props => {
 				<span>Methodik</span>Didaktik
 			</h2>
 			<div className="methodik-didaktik-container">
-				{inhalt.map(item => (
-					<MethodikDidaktikItem item={item} />
-				))}
+				{item ? inhalt.map(item => <MethodikDidaktikItem item={item} />) : ""}
 			</div>
 		</section>
 	);
